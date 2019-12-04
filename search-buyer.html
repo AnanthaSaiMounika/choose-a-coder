@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <title>Search Your Coder</title>
+    <style>
+       body {
+         background-image:url(image22.jpg);
+        background-repeat:no-repeat;
+      height:100%;
+      background-position: center;
+      background-size: cover;
+        
+   
+}
+     b{
+        color:yellow;
+      font-size:250%;
+      font-style:italic;}
+      #submit{
+background:#2F0B3A;
+        color:yellow;
+        padding:10px;
+        border-radius:20%;
+      font-style:italic;}
+      #close
+      {
+        background:#2F0B3A;
+        color:yellow;
+        padding:10px;
+        border-radius:20%;
+      font-style:italic;}
+      #star{
+        color:red;
+        float:right;
+        font-style:italic;
+        font-size:130%;
+      }
+      #sp{
+        color:red;
+        font-style:italic;
+      }
+      h2,h1{
+font-style:italic;
+        color:#2EFE2E;
+      }
+      #job{
+        color:yellow;
+      }
+      #sta,input,textarea{
+        margin-left:50px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <center><b>Search Your Coder</b></center>
+     <hr><br>
+    <h1>Select your requirements:</h1><br>
+    <form action="search-server.php" method="post">
+    <h2 id="sta">Skills Required:</h2>
+    &emsp;&emsp;&emsp;&emsp;<input type="checkbox" value="c" name="c" id="c"><span id="job">C Programming</span>
+      &emsp;&emsp;&emsp;&emsp;<input type="checkbox" value="c++" name="coops" id="coops"><span id="job">C++</span><br>
+      &emsp;&emsp;&emsp;&emsp;<input type="checkbox" value="data structures" name="ds" id="ds"><span id="job">Data Structures</span>
+      &emsp;&emsp;&emsp;&emsp;&nbsp;<input type="checkbox" value="python" name="python" id="python"><span id="job">Python</span><br>
+      &emsp;&emsp;&emsp;&emsp;<input type="checkbox" value="computer graphics" name="cg" id="cg"><span id="job">Computer Graphics</span>
+      &emsp;&emsp;&nbsp;&nbsp;<input type="checkbox" value="R" name="r" id="r"><span id="job">R Language</span><br>
+      &emsp;&emsp;&emsp;&emsp;<input type="checkbox" value="Java" name="java" id="java"><span id="job">Java</span>
+      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<input type="checkbox" value="DBMS" name="dbms" id="dbms"><span id="job">DBMS</span><br>
+      &emsp;&emsp;&emsp;&emsp;<input type="checkbox" value="HTML" name="html" id="html"><span id="job">HTML</span>
+      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<input type="checkbox" value="CSS" name="css" id="css"><span id="job">CSS</span><br>
+      &emsp;&emsp;&emsp;&emsp;<input type="checkbox" value="Java Script" name="js" id="js"><span id="job">JavaScript</span>
+      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<input type="checkbox" value="JSP" name="jsp" id="jsp"><span id="job">JSP</span><br>
+      &emsp;&emsp;&emsp;&emsp;<input type="checkbox" value="php" name="php" id="php"><span id="job">PHP</span>
+      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<input type="checkbox" value="xml" name="xml" id="xml"><span id="job">XML</span><br>
+      &emsp;&emsp;&emsp;&emsp;<input type="checkbox" value="MYSQL" name="seql" id="sql"><span id="job">MYSQL</span>
+      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;<input type="checkbox" value="JQuery" name="jq" id="jq"><span id="job">JQery</span>
+    <br>
+      <h2 id="sta">Job Requirement:</h2>
+    &emsp;&emsp;&emsp;&emsp;<input type="radio" name="job" value="Yes"><span id="job">Yes</span>&ensp;&ensp;&ensp;&ensp;<input type="radio" name="job" value="No"><span id="job">No</span><br>
+    <h2 id="sta">Internship:</h2>&emsp;&emsp;&emsp;&emsp;<input type="radio" name="intern" value="Yes" id="intern"><span id="job">Yes</span>&emsp;&emsp;&emsp;&emsp;<input type="radio" name="intern" id="intern" value="No"><span id="job">No</span>
+      <h2 id="sta">Education Qualification:<span style="color:red">*</span></h2>&emsp;&emsp;&emsp;&emsp;<textarea rows="3" cols="100" id="edu" name="edu"></textarea>
+      <br><center><input type="submit" id="submit" value="Submit" name="submit"></center>
+    </form>
+    <center><a href="newwelcome-buyer.php"><input type="button" id="close" value="Close" name="close"></a></center>
+  </body>
+</html>
